@@ -1,0 +1,37 @@
+/*Charcoal Black (#111111) — Background
+Pearl White (#FFFFFF) — Logo/text
+Muted Sand (#D6C7B0) — Accent (like a shell tone)
+Ocean Blue (#4A90E2) — Call-to-action or hover effects
+Mussel Purple (#5C4A72) — Optional moody depth / secondary*/
+
+body {
+    height: 90vh;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container{
+}
+
+.logo{
+    margin: 0px auto;
+    width: 180px;
+}
+
+.logo-text{
+    margin: -5px auto 0px auto;
+    font-family: "Fredoka", "sans-serif";
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.logo-text-accent{
+    color: #D6C7B0;
+    font-size: 35px;
+    font-weight: bolder;
+}

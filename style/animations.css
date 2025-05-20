@@ -1,0 +1,52 @@
+/*Charcoal Black (#111111) — Background
+Pearl White (#FFFFFF) — Logo/text
+Muted Sand (#D6C7B0) — Accent (like a shell tone)
+Ocean Blue (#4A90E2) — Call-to-action or hover effects
+Mussel Purple (#5C4A72) — Optional moody depth / secondary*/
+
+.color-change {
+	-webkit-animation: color-change 8s linear infinite alternate both;
+	        animation: color-change 8s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: cyan;
+  }
+  20% {
+    color: green;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: red;
+  }
+  80% {
+    color: magenta;
+  }
+  100% {
+    color: blue;
+  }
+}
+@keyframes color-change {
+  0% {
+    color: cyan;
+  }
+  20% {
+    color: green;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: red;
+  }
+  80% {
+    color: magenta;
+  }
+  100% {
+    color: blue;
+  }
+}
+
